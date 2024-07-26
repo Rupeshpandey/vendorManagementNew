@@ -7,6 +7,7 @@ import { LoginComponent } from './components/login/login.component';
 import { VendorDashboardComponent } from './components/vendor-dashboard/vendor-dashboard.component';
 import { VendorRegistrationComponent } from './components/vendor-registration/vendor-registration.component';
 import { VendorListComponent } from './components/vendor-list/vendor-list.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { VendorListComponent } from './components/vendor-list/vendor-list.compon
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
